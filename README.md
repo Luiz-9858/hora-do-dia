@@ -9,7 +9,7 @@ Um projeto web interativo que exibe a hora atual e muda dinamicamente a aparênc
 
 ## 🚀 Demonstração
 
-🔗 **[Ver projeto ao vivo](times-of-day.netlify.app)** 
+🔗 **[Ver projeto ao vivo](https://hrs-do-dia.netlify.app)** 
 
 ## 📋 Sobre o Projeto
 
@@ -56,7 +56,7 @@ git clone https://github.com/Luiz-9858/hora-do-dia.git
 
 2. Abra o arquivo `index.html` no navegador
 
-Ou acesse diretamente a versão online: [https://times-of-day.netlify.app/]
+Ou acesse diretamente a versão online: [https://hrs-do-dia.netlify.app]
 
 ## 🎨 Prévia
 
