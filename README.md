@@ -56,7 +56,7 @@ git clone https://github.com/Luiz-9858/hora-do-dia.git
 
 2. Abra o arquivo `index.html` no navegador
 
-Ou acesse diretamente a versão online: [times-of-day.netlify.app]
+Ou acesse diretamente a versão online: [https://times-of-day.netlify.app/]
 
 ## 🎨 Prévia
 
