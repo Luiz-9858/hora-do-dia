@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: normal 15pt Arial, sans-serif;
+  transition: background 0.7s ease;
+}
+
+body.manha {
+  background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+}
+
+body.tarde {
+  background: linear-gradient(135deg, #fab1a0 0%, #e17055 100%);
+}
+
+body.noite {
+  background: linear-gradient(135deg, #2d3436 0%, #000000 100%);
+}
+
+header {
+  color: white;
+  text-align: center;
+  padding: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+section {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  overflow: hidden;
+}
+
+#msg {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+foto {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 20px auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+#foto:hover {
+  transform: scale(1.05);
+}
+
+#foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  padding: 20px;
+  margin-top: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  #foto {
+    width: 150px;
+    height: 150px;
+  }
+}
